@@ -1,0 +1,22 @@
+.attention {
+  display: none;
+}
+
+//Для определения ие10
+html[data-useragent*='MSIE 10.0'] {
+  body *{
+    display: none !important;
+  }
+  .attention img {
+    display: block !important;
+    margin: 0 auto 30px;
+  }
+  .attention {
+    display: block !important;
+    padding-top: 15%;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
