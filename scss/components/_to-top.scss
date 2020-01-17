@@ -1,0 +1,15 @@
+.to-top {
+  z-index: 115;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  display: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #222;
+  border-radius: 50%;
+  &:hover {
+
+  }
+}

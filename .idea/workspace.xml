@@ -2,58 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98889e1c-4814-46f0-8fd1-0a9517f2a0e7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/animation-gsap/js/animation.gsap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/anime/js/anime.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/cookie/js/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/fancybox3/js/jquery.fancybox3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/fancybox3/scss/_fancybox3.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/hc-sticky/js/hc-sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/jquery/js/ajquery-1.12.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/modernizr/js/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/nouislider/js/nouislider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/nouislider/js/nouislider_fixed_bugs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/nouislider/scss/_nouislider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/phone-mask/js/jquery.mask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/pickmeup/js/pickmeup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/pickmeup/scss/_pickmeup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/popup-slide/js/popup-slide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/popup-slide/scss/_popup-slide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/scrollbar/js/scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/scrollbar/scss/_scrollbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/scrollmagic/js/ScrollMagic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/select2/js/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/select2/scss/select2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/slick/js/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/slick/scss/_slick-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/svg-animate/js/svg-animate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/timecircles/js/circle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/timecircles/js/svg-circle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/timecircles/js/timecircles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/timecircles/scss/_timecircles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/tweenmax/js/TweenMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/scripts-repository/waypoints/js/waypoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/ajquery-1.12.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/cookie/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/cookie/main.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/cookie/umm.mega.ks.ua.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/hc-sticky/hc-sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/hc-sticky/zindex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/ie-version/cssIE.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/ie-version/ie-version.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/ie-version/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/scroll fix ios.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/scroll fix ios/template.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/see-on-map-fancybox/example.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/svg-animate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/tpl/svg-animate/svg-animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/base64.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_catalog-filter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_object-fit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_to-top.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/layouts/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_capture.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_compass.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_container-relative.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_flexbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_fontface.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_heading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_inline-positioning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_item-img.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_list-reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_placeholder.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_pseudo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_slider-fix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins/_user-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/sprites.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,19 +46,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/tpl/cookie/main.tpl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://C:/OpenServer/domains/vue-test.mega.ks.ua/templates/main/main.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/index.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -87,6 +88,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scripts/index.js" />
       </list>
     </option>
   </component>
@@ -106,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,10 +115,16 @@
               <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,6 +135,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Aketca.github.io" />
       <recent name="C:\github\Aketca.github.io\storage" />
     </key>
   </component>
@@ -153,36 +161,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579175640079</updated>
-      <workItem from="1579175641569" duration="867000" />
+      <workItem from="1579175641569" duration="2666000" />
+      <workItem from="1579276649369" duration="559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="867000" />
+    <option name="totallyTimeSpent" value="3225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,13 +201,74 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/storage/tpl/cookie/main.tpl">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/tpl/nav/fixed-menu/fixed-menu.tpl">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layouts/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/OpenServer/domains/vue-test.mega.ks.ua/scripts/js-compress/zindex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/sprites.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/OpenServer/domains/vue-test.mega.ks.ua/templates/main/main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/OpenServer/domains/welcomemate/wp-content/themes/welcome-mate/welcome-mate/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/OpenServer/domains/zta/wp-content/themes/zta/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>

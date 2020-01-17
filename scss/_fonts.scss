@@ -1,0 +1,6 @@
+@import "mixins/fontface";
+
+@include fontface(EurofontC, 700, Bold, n);
+@include fontface(EurofontC, 700, BoldItalic, Italic);
+@include fontface(EurofontC, 400, Italic, Italic);
+@include fontface(EurofontC, 400, n, n);

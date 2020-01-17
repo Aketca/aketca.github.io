@@ -1,0 +1,97 @@
+.validation {
+  font-family: $font-family-validation;
+  font-size: 0;
+}
+.validation-field {
+  position: relative;
+  display: block;
+  padding: 12px 0 22px 0;
+  %inputs {
+    width: 100%;
+    padding-left: 20px;
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    font-family: $font-family-validation;
+    font-size: 15px;
+    color: $text-color;
+    @include placeholder {
+      font-family: $font-family-validation;
+      font-size: 0;
+      color: #949494;
+    }
+    &:hover,&:focus {
+      border-color: $color-1;
+    }
+    &:focus + .placeholder {
+      top: -5px;
+      font-size: 10px;
+      color: $color-1;
+    }
+  }
+  &>input, &>select {
+    @extend %inputs;
+    vertical-align: middle;
+    height: 36px;
+  }
+  &>textarea {
+    @extend %inputs;
+    height: 100px;
+    padding-top: 10px;
+    resize: vertical;
+  }
+  &.message-area {
+    width: 100%;
+  }
+  &.invalid{
+    input, textarea,.checkbox {
+      border-color: #e25353 !important;
+    }
+    &>.error {
+      display: block;
+    }
+    &>.input-title {
+      color: #e25353;
+    }
+  }
+  &.active {
+    &>.placeholder {
+      top: -5px;
+      font-size: 10px;
+      color: $color-1;
+    }
+  }
+  &>.placeholder {
+    pointer-events: none;
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    padding: 6px 6px 0 0;
+    background-color: #fff;
+    font-size: 12px;
+    color: #7a7a7a;
+    transition: all 0.4s;
+  }
+  &>.error {
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+    display: none;
+    font-size: 12px;
+    color: #e25353;
+  }
+}
+.submit{
+  max-width: 100%;
+}
+.form-success.green{
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  color: $text-color;
+}
+.g-recaptcha > div {
+  margin: 0 calc(50% - 152px);
+  @include breakpoint(xs){
+    @include transform(scale(0.8,0.8));
+  }
+}
