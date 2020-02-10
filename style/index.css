@@ -1,0 +1,134 @@
+body {
+  padding: 0;
+}
+
+::before, ::after {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1290px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.flex, .ac, .as, .ac-jc, .ac-jb, .as-jb, .jb, .as-jc, .ae-jb, .column-jc, .column-js {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.ac-jb, .as-jb, .jb, .ae-jb {
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+
+.column-js {
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+}
+
+.ac-jc, .as-jc, .column-jc {
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+}
+
+.ac, .ac-jc, .ac-jb {
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.as, .as-jb, .as-jc {
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+
+.column-jc, .column-js {
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.ae-jb {
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+}
+
+.shrink {
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+header {
+  background-color: #222;
+  padding: 10px 0;
+  color: #fff;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #222;
+  color: #fff;
+}
