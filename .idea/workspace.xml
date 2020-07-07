@@ -1,23 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98889e1c-4814-46f0-8fd1-0a9517f2a0e7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/cursor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/ajquery-1.12.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/pixi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/layouts/_test-block.scss" afterDir="false" />
+    <list default="true" id="6763f5f1-7efa-4a29-a9d6-a4c9b11b9253" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/components/pop-up.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/components/pop-up.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/components/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/components/popup.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/NotoSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/backgrounds/banner-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/backgrounds/solutions-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/backgrounds/we-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/backgrounds/we-bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/backgrounds/we_bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/comp/footcareer-logo-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/comp/footcareer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/comp/lester-logo-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/comp/lester-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/comp/ticket-logo-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/comp/ticket-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/Vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/Vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/arrow_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/ellipse-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/footcareer-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-consalting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-devops.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-dot-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-dot-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-infrastr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-mvp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-qa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-team-ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-team.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icon-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icone-phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/lester-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/logo-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/logo_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/logo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons-png/ticket-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/Vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/footcareer-logo-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/footcareer-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/lester-logo-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/lester-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/logo-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/ticket-logo-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icons/ticket-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/img/Rectangle 87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/news/new-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/news/new-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/news/new-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/projects/footcareer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/projects/lester.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/projects/t-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/projects/t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/team/team.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/team/team.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/lib/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/scripts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/_config.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/_sprite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/components/_all-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/components/_input-field.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/components/_language-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/components/_loader-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/components/_loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/lib/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/lib/_multiple.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/lib/_select2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/lib/_single.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/mixins/_fontface.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/mixins/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/mixins/_item-img.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/mixins/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_attention-details.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_btn-burger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_clients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_contacts-and-order.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_news.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_projects.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_solutions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/modules/_we-work.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ajquery-1.12.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/pixi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_catalog-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_object-fit.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_to-top.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_validation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layouts/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layouts/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layouts/_test-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/mixins/_background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_capture.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/mixins/_capture.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_container-relative.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_flexbox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_fontface.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/mixins/_heading.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_inline-positioning.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/mixins/_inline-positioning.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_item-img.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_list-reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/mixins/_list-reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_placeholder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/mixins/_placeholder.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_pseudo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_slider-fix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/mixins/_slider-fix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins/_user-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/mixins/_user-select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/animation-gsap/js/animation.gsap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/anime/js/anime.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/cookie/js/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/fancybox3/js/jquery.fancybox3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/lib/jquery.fancybox3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/fancybox3/scss/_fancybox3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/lib/_fancybox3.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/hc-sticky/js/hc-sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/jquery/js/ajquery-1.12.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/modernizr/js/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/lib/modernizr-object-fit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/nouislider/js/nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/nouislider/js/nouislider_fixed_bugs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/nouislider/scss/_nouislider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/lib/_nouislider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/phone-mask/js/jquery.mask.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/lib/mask.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/pickmeup/js/pickmeup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/pickmeup/scss/_pickmeup.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/popup-slide/js/popup-slide.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/lib/popup-slide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/popup-slide/scss/_popup-slide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/lib/_popup-slide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/scrollbar/js/scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/lib/scrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/scrollbar/scss/_scrollbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/lib/_scrollbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/scrollmagic/js/ScrollMagic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/select2/js/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/select2/scss/select2.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/slick/js/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/lib/slick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/slick/scss/_slick-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/lib/_slick-theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/snap(svg path animation)/js/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/snap(svg path animation)/js/snap.svg-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/snap(svg path animation)/tpl/spot1.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/svg-animate/js/svg-animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/timecircles/js/circle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/timecircles/js/svg-circle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/timecircles/js/timecircles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/timecircles/scss/_timecircles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/tweenmax/js/TweenMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/scripts-repository/waypoints/js/waypoints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/ajquery-1.12.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/cookie/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/cookie/main.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/cookie/umm.mega.ks.ua.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/hc-sticky/hc-sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/hc-sticky/zindex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/ie-version/cssIE.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/ie-version/ie-version.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/ie-version/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/scroll fix ios.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/scroll fix ios/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/scroll fix ios/template.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/see-on-map-fancybox/example.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/svg-animate/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/tpl/svg-animate/svg-animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/cssIE.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,43 +236,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-              <folding>
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_test-block.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/layouts/_test-block.scss">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="304">
+              <caret line="141" column="27" lean-forward="true" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/base.scss">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="159" selection-start-line="159" selection-end-line="162" selection-end-column="1" />
+            <state relative-caret-position="17">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/index.js">
+      <file leaf-file-name=".gitlab-ci.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -71,11 +292,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>app</find>
+      <find>browserSync</find>
     </findStrings>
-    <replaceStrings>
-      <replace>appSpace</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,18 +301,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/scss/layouts/_footer.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/scss/layouts/_header.scss" />
-        <option value="$PROJECT_DIR$/scss/index.scss" />
-        <option value="$PROJECT_DIR$/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/scss/layouts/_test-block.scss" />
-        <option value="$PROJECT_DIR$/scripts/index.js" />
-        <option value="$PROJECT_DIR$/scss/base.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -104,98 +314,64 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1933" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="1XeqvzuIBqXgwbJXNO1qtaOfSGt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scripts-repository" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scripts-repository" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jquery" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scripts-repository" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jquery" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="style" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aketca.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aketca.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ЗАГРУЗКИ/HTML-GL-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\github\Aketca.github.io\scripts" />
+      <recent name="D:\footcareer\build\img\icons-png" />
+      <recent name="D:\OSPanel\domains\lester\build\html\_include\catalog-item" />
+      <recent name="D:\OSPanel\domains\lester\build\html\_include\header" />
+      <recent name="D:\OSPanel\domains\lester\build\sass\components" />
+      <recent name="D:\OSPanel\domains\lester\build\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\github\Aketca.github.io\images" />
-      <recent name="C:\github\Aketca.github.io\scripts" />
-      <recent name="C:\github\Aketca.github.io\storage\scripts-repository\jquery\js" />
-      <recent name="C:\github\Aketca.github.io\storage\scripts-repository\snap(svg path animation)\tpl" />
-      <recent name="C:\github\Aketca.github.io\storage\scripts-repository\snap\js" />
+      <recent name="D:\footcareer\build\img\icons" />
+      <recent name="D:\footcareer\build\sass\components" />
+      <recent name="D:\OSPanel\domains\lester\build\html\_include\filter" />
+      <recent name="D:\OSPanel\domains\lester\build\html" />
+      <recent name="D:\OSPanel\domains\lester\build\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -215,36 +391,98 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="98889e1c-4814-46f0-8fd1-0a9517f2a0e7" name="Default" comment="" />
-      <created>1579175640079</created>
+      <changelist id="6763f5f1-7efa-4a29-a9d6-a4c9b11b9253" name="Default Changelist" comment="" />
+      <created>1581417143095</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579175640079</updated>
-      <workItem from="1579175641569" duration="2666000" />
-      <workItem from="1579276649369" duration="608000" />
-      <workItem from="1581320444354" duration="11454000" />
+      <updated>1581417143095</updated>
+      <workItem from="1581417145250" duration="15348000" />
+      <workItem from="1581495191502" duration="822000" />
+      <workItem from="1581497340432" duration="134000" />
+      <workItem from="1581497538335" duration="44000" />
+      <workItem from="1581497607361" duration="1448000" />
+      <workItem from="1581502847688" duration="2595000" />
+      <workItem from="1581510097048" duration="267000" />
+      <workItem from="1581587950434" duration="6660000" />
+      <workItem from="1581609435538" duration="251000" />
+      <workItem from="1581668502185" duration="1142000" />
+      <workItem from="1581672011607" duration="11714000" />
+      <workItem from="1581926996671" duration="4503000" />
+      <workItem from="1581933919355" duration="1310000" />
+      <workItem from="1581935257980" duration="13265000" />
+      <workItem from="1581953321647" duration="146000" />
+      <workItem from="1581953552406" duration="4575000" />
+      <workItem from="1582014041396" duration="21870000" />
+      <workItem from="1582043762066" duration="82000" />
+      <workItem from="1582100041034" duration="17994000" />
+      <workItem from="1582187144413" duration="20768000" />
+      <workItem from="1582273078697" duration="19800000" />
+      <workItem from="1582532668445" duration="24118000" />
+      <workItem from="1582618433703" duration="22328000" />
+      <workItem from="1582704854691" duration="14441000" />
+      <workItem from="1582791214881" duration="20449000" />
+      <workItem from="1582877536646" duration="18411000" />
+      <workItem from="1583136592402" duration="18031000" />
+      <workItem from="1583224072569" duration="18938000" />
+      <workItem from="1583309428722" duration="19296000" />
+      <workItem from="1583396100751" duration="19931000" />
+      <workItem from="1583482179032" duration="21924000" />
+      <workItem from="1583828224426" duration="899000" />
+      <workItem from="1583832893504" duration="16361000" />
+      <workItem from="1583914248768" duration="23492000" />
+      <workItem from="1584000721962" duration="6604000" />
+      <workItem from="1584007993529" duration="17099000" />
+      <workItem from="1584086966905" duration="22150000" />
+      <workItem from="1584346196246" duration="160000" />
+      <workItem from="1584351012248" duration="18062000" />
+      <workItem from="1584432801005" duration="23229000" />
+      <workItem from="1584519490927" duration="22230000" />
+      <workItem from="1584605611749" duration="41000" />
+      <workItem from="1584606945998" duration="17263000" />
+      <workItem from="1584692168962" duration="19296000" />
+      <workItem from="1584951390526" duration="13170000" />
+      <workItem from="1584978772690" duration="357000" />
+      <workItem from="1585038604214" duration="9398000" />
+      <workItem from="1585053497020" duration="12702000" />
+      <workItem from="1585124147788" duration="19902000" />
+      <workItem from="1585210637898" duration="22296000" />
+      <workItem from="1585297652968" duration="17006000" />
+      <workItem from="1585553146704" duration="21189000" />
+      <workItem from="1585639175269" duration="723000" />
+      <workItem from="1585644257476" duration="17986000" />
+      <workItem from="1585725273161" duration="23011000" />
+      <workItem from="1585812045496" duration="21736000" />
+      <workItem from="1585898984223" duration="221000" />
+      <workItem from="1585903393700" duration="4669000" />
+      <workItem from="1585913912640" duration="12302000" />
+      <workItem from="1586157509606" duration="619000" />
+      <workItem from="1586160106640" duration="20806000" />
+      <workItem from="1586243060366" duration="5578000" />
+      <workItem from="1586253298753" duration="339000" />
+      <workItem from="1586848600779" duration="4133000" />
+      <workItem from="1587626201660" duration="1696000" />
+      <workItem from="1594150908530" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14728000" />
+    <option name="totallyTimeSpent" value="4466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32575756" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -257,107 +495,91 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/lester" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/OpenServer/domains/vue-test.mega.ks.ua/templates/main/main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/OpenServer/domains/vue-test.mega.ks.ua/scripts/js-compress/zindex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/OpenServer/domains/welcomemate/wp-content/themes/welcome-mate/welcome-mate/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/OpenServer/domains/zta/wp-content/themes/zta/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/sprites.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1003">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/base64.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/base.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/OpenServer/domains/demo11.mega.ks.ua/templates/main/main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/sprites.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/cssIE.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.rb">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/scss/layouts/_test-block.scss" />
+    <entry file="file://$PROJECT_DIR$/scss/base.scss" />
+    <entry file="file://$PROJECT_DIR$/scripts/index.js" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/scripts/index.js" />
+    <entry file="file://C:/OpenServer/domains/vue-test.mega.ks.ua/templates/main/main.tpl" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://C:/OpenServer/domains/vue-test.mega.ks.ua/scripts/js-compress/zindex.js" />
+    <entry file="file://C:/OpenServer/domains/welcomemate/wp-content/themes/welcome-mate/welcome-mate/README.md" />
+    <entry file="file://C:/OpenServer/domains/zta/wp-content/themes/zta/README.md" />
+    <entry file="file://$PROJECT_DIR$/style/index.css" />
+    <entry file="file://C:/OpenServer/domains/demo11.mega.ks.ua/templates/main/main.tpl" />
+    <entry file="file://$PROJECT_DIR$/storage/scripts-repository/snap(svg path animation)/js/init.js" />
+    <entry file="file://C:/OpenServer/domains/vue-test.mega.ks.ua/templates/main/main.tpl" />
+    <entry file="file://$PROJECT_DIR$/scss/index.scss" />
+    <entry file="file://$PROJECT_DIR$/scss/_variables.scss" />
+    <entry file="file://$PROJECT_DIR$/scss/layouts/_header.scss" />
+    <entry file="file://$PROJECT_DIR$/scss/layouts/_footer.scss" />
+    <entry file="file://$PROJECT_DIR$/index2.html" />
+    <entry file="file://$PROJECT_DIR$/scss/layouts/_test-block.scss" />
+    <entry file="file://$PROJECT_DIR$/scss/base.scss" />
+    <entry file="file://$PROJECT_DIR$/scripts/index.js" />
+    <entry file="file://$PROJECT_DIR$/config.rb" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -365,101 +587,37 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="34">
-            <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/scripts-repository/snap(svg path animation)/js/init.js">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        <state relative-caret-position="3128">
+          <caret line="184" column="28" lean-forward="true" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/scripts-repository/snap(svg path animation)/tpl/spot1.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/OpenServer/domains/vue-test.mega.ks.ua/templates/main/main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/htmlgl.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ajquery-1.12.0.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layouts/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layouts/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/pixi.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layouts/_test-block.scss">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/base.scss">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="159" selection-start-line="159" selection-end-line="162" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="304">
+          <caret line="141" column="27" lean-forward="true" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
         </state>
       </provider>
     </entry>
