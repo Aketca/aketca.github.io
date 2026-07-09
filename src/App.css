@@ -122,6 +122,13 @@ td {
         background-size: contain;
     }
 }
+@media (prefers-color-scheme: dark) {
+    .staff-table-wrap {
+        &:after {
+            filter: invert(1);
+        }
+    }
+}
 .guitar-wrap {
     width: calc(100% - 320px);
 }
