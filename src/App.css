@@ -53,9 +53,25 @@ h2 {
     cursor: pointer;
     margin: -6px 0;
     opacity: 0;
-    &.note--selected {
+    &.note--selected + .note-decoration{
         opacity: 1;
     }
+}
+.note-label {
+    position: relative;
+    display: block;
+}
+.note-decoration {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: var(--accent);
+    opacity: 0;
+    z-index: 2;
 }
 td {
     height: 14px;
@@ -88,6 +104,23 @@ td {
 }
 .staff {
     width: 300px;
+}
+.staff-table-wrap {
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        left: -28px;
+        top: 117px;
+        width: 130px;
+        height: 180px;
+        background-image: url("./assets/treble_clef.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        pointer-events: none;
+        background-size: contain;
+    }
 }
 .guitar-wrap {
     width: calc(100% - 320px);

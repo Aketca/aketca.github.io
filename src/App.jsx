@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
@@ -80,34 +77,39 @@ function App() {
             midi: openMidi + fret,
         })),
     }));
-  const [selectedMidi, setselectedMidi] = useState(null)
+    const [selectedMidi, setSelectedMidi] = useState(64)
 
   return (
     <>
         <div className={'app-wrapper'}>
             <section className={'staff'}>
                 <h2>Позіціонування ноти</h2>
-                <table>
-                    <tbody>
-                    { STAFF_NOTES.reverse().map((val, index) => (
-                        <tr key={index + val} className={'line tr-'+ val}>
-                            <td className={'td td-'+ val}>
-                                <input
-                                    type="radio"
-                                    value={val}
-                                    name="note"
-                                    checked={selectedMidi === val}
-                                    onChange={() => setselectedMidi(val)}
-                                    className={`
-                                        note
-                                        ${selectedMidi === val ? 'note--selected' : ''}
-                                    `}
-                                />
-                            </td>
-                        </tr>
-                    ))}
-                    </tbody>
-                </table>
+                <div className="staff-table-wrap">
+                    <table>
+                        <tbody>
+                        { STAFF_NOTES.reverse().map((val, index) => (
+                            <tr key={NOTE_NAMES[val]} className={'line tr-'+ val}>
+                                <td className={'td td-'+ val}>
+                                    <label className={'note-label'}>
+                                        <input
+                                            type="radio"
+                                            value={val}
+                                            name="note"
+                                            checked={selectedMidi === val}
+                                            onChange={() => setSelectedMidi(val)}
+                                            className={`
+                                                note
+                                                ${selectedMidi === val ? 'note--selected' : ''}
+                                            `}
+                                        />
+                                        <span className={'note-decoration'}></span>
+                                    </label>
+                                </td>
+                            </tr>
+                        ))}
+                        </tbody>
+                    </table>
+                </div>
             </section>
             <section className={'guitar-wrap'}>
                 <h2>Розміщення на грифі - {NOTE_NAMES[selectedMidi]}</h2>
@@ -116,7 +118,7 @@ function App() {
                     <tr>
                         <td>Відкрита</td>
                         { [...Array(MAX_FRET - 1)].map((_, index2) => (
-                            <td className={'fret-name'}>{index2 + 1}</td>
+                            <td key={index2 + 'fret-count'} className={'fret-name'}>{index2 + 1}</td>
                         ))}
                     </tr>
                     </thead>
@@ -124,11 +126,13 @@ function App() {
                     { fretboard.map((val, index) => (
                         <tr key={val.string + index} className={'str str-'+ val.string}>
                             { val.frets.map((val2, index2) => (
-                                <td className={`
-                                fret
-                                fret-${val2.fret}__midi-${val2.midi}
-                                ${val2.midi === selectedMidi ? 'fret--active' : ''}
-                                `}
+                                <td
+                                    key={val2.fret + index2}
+                                    className={`
+                                        fret
+                                        fret-${val2.fret}__midi-${val2.midi}
+                                        ${val2.midi === selectedMidi ? 'fret--active' : ''}
+                                    `}
                                 ></td>
                             ))}
                         </tr>
